@@ -11,14 +11,15 @@
 npm i cn-cli -g
 ```
 or
-    ```bash
-    yarn add cn-cli -g
-    ```
-    ⚡ **Help**
+```bash
+yarn add cn-cli -g
+```
+
+⚡ **Help**
     
-    ```bash
-    cn --help
-    ```
+```bash
+cn --help
+```
 
 ## 📫 Contact Us
 
