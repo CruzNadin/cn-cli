@@ -98,9 +98,8 @@ function ModuleCreate(projectFolder, appname) {
       } catch (error) {}
 
       try {
-        path += "/tulpar-base-reactnative/src";
+        path += "/src";
         fse.copySync(path, writepath, { overwrite: true });
-        console.info("Your files are successfully created!");
       } catch (error) {
         console.error(
           "There was an error while copying your files. Error: " + error
