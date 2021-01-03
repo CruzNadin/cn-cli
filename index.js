@@ -4,7 +4,6 @@ var cmd = require("node-cmd");
 const ora = require("ora");
 var fs = require("fs");
 const fse = require("fs-extra");
-const shell = require("shelljs");
 var setTitle = require("console-title");
 var pjson = require("./package.json");
 const Table = require("cli-table");
