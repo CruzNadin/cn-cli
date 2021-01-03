@@ -32,7 +32,7 @@ local.properties
 # node.js
 #
 node_modules/
-tulpar-base-reactnative
+copy/tulpar-base-reactnative/
 
 npm-debug.log
 yarn-error.log

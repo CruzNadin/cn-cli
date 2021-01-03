@@ -116,9 +116,6 @@ var consoleinput = process.argv[2];
 if (consoleinput == "new") {
   var appname = process.argv[3];
   if (appname) {
-    ModuleCreate(process.cwd() + "/" + appname, appname);
-
-    /* 
     oras.start("Creating Project Please Wait.....");
     cmd.run(`npx react-native init ${appname}`, function (err, data, stderr) {
       oras.stop().succeed("Project Created");
@@ -147,7 +144,7 @@ if (consoleinput == "new") {
           );
         }
       );
-    }); */
+    });
   } else {
     console.error(colors.red.underline("Project name cannot be blank"));
     console.info(colors.inverse("cn --help"));
