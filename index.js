@@ -237,7 +237,8 @@ if (consoleinput == "new") {
   if (servicesname) {
     function CreatedService(path, servicesname) {
       if (path && servicesname) {
-        let filepath = path + "/src/app/services/" + servicesname + ".ts";
+        let filepath =
+          path + "/src/app/services/" + servicesname + "Service" + ".ts";
         fs.readFile(filepath, (err) => {
           if (err) {
             fs.closeSync(fs.openSync(filepath, "w"));
