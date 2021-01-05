@@ -1,6 +1,6 @@
 {
   "name": "cn-cli",
-  "version": "1.2.3",
+  "version": "1.2.6",
   "description": "React Native Base Project CruzNadin CLI",
   "main": "index.js",
   "scripts": {
